@@ -1,0 +1,89 @@
+.Products {
+  border-bottom: 2px solid #e8e8e8;
+  /* border-radius: 10px; */
+  padding: 10px 20px;
+  /* box-shadow: 0 10px 80px rgba(0, 0, 0, 0.065); */
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+  /* margin-top: 15px; */
+  color: #444;
+}
+
+.imgContainer {
+  display: flex;
+  max-width: 250px;
+}
+.productImg {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  border-radius: 8px 8px 0 0;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.titleContainer {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+.titleSpan1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 100px;
+  color: rgb(132, 125, 125);
+}
+.titleSpan2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+}
+.buttons {
+  background-color: #fff;
+  border: 1px solid rgb(132, 125, 125);
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: rgb(132, 125, 125);
+  font-size: 15px;
+  font-weight: bold;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.buttons button {
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+}
+.buttons span {
+  margin: 15px;
+  font-size: 20px;
+}
+.deleteButton {
+  background-color: #fff;
+  border: 1px solid rgb(132, 125, 125);
+  border-radius: 10px;
+  padding: 10px 25px;
+  color: rgb(132, 125, 125);
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.deleteButton button {
+  background-color: #fff;
+  border: none;
+  font-size: 14.5px;
+  font-weight: bold;
+  color: rgb(132, 125, 125);
+  margin-left: 5px;
+}

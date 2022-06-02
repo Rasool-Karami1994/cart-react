@@ -1,0 +1,12 @@
+.filterContainer {
+  display: flex;
+}
+.filterContainer span {
+  background-color: aquamarine;
+}
+.packagesContainer {
+  display: flex;
+}
+.packagesContainer span {
+  background-color: aquamarine;
+}
