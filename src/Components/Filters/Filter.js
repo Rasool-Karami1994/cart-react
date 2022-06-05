@@ -3,12 +3,20 @@ import styles from "./Filter.module.css";
 const Filter = () => {
   return (
     <div className={styles.filterContainer}>
-      <span>packages:</span>
+      <h3>PackagesFilter:</h3>
       <div className={styles.packagesContainer}>
-        <sapn>1kg</sapn>
-        <sapn>2kg</sapn>
-        <sapn>3kg</sapn>
-        <sapn>5kg</sapn>
+        <button className={styles.Packeges} value="1kg">
+          1kg
+        </button>
+        <button className={styles.Packeges} value="2kg">
+          2kg
+        </button>
+        <button className={styles.Packeges} value="3kg">
+          3kg
+        </button>
+        <button className={styles.Packeges} value="5kg">
+          5kg
+        </button>
       </div>
     </div>
   );

@@ -1,12 +1,17 @@
 .filterContainer {
   display: flex;
+  align-items: center;
 }
-.filterContainer span {
-  background-color: aquamarine;
-}
+
 .packagesContainer {
   display: flex;
+  font-size: 14px;
 }
-.packagesContainer span {
-  background-color: aquamarine;
+.Packeges {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding: 10px;
+  height: 40px;
 }

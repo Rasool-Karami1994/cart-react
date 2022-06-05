@@ -6,7 +6,7 @@ export const productsData = [
     description: "pure grocery",
     image: "./photos/Tomato.jpg",
     availablePackings: ["1Kg", "2Kg", "3Kg", "5Kg"],
-    price: 1, 
+    price: 1,
   },
   {
     id: 2,

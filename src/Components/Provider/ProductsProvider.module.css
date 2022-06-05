@@ -1,0 +1,4 @@
+.proContainer {
+  display: flex;
+  flex-direction: column;
+}
