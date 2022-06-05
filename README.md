@@ -14,12 +14,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-An application that simulate parts of an online shopping website shop cart.
+# react - cart
+An application that simulate parts of an online shopping website cart.
 
 Reflection
 Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
 
-Originally I wanted to build an application that allowed users to add products to Shop-cart, Eliminate, increase or decrease the number and calculate the price of products in the cart and finally clear the cart or confirm it.
+ I build an application that allowed users to search and remove products and increase or decrease the number of them. and user can  apply the filters based on the product packaging .
 
-I used vanilla JS and Css for building this project.
+I used react and Css for building this project And  I practiced and used the concepts of costuom-hooks, Context, useReducer hook and conditional rendering for render the components.
