@@ -17,7 +17,7 @@ You may also see any lint errors in the console.
 # react - cart
 An application that simulate parts of an online shopping website cart.
 
-Reflection
+
 Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
 
  I build an application that allowed users to search and remove products and increase or decrease the number of them. and user can  apply the filters based on the product packaging .
