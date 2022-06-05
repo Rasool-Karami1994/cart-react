@@ -32,6 +32,23 @@ const reducer = (state, action) => {
         return updatedProducts;
       }
     }
+    case "filter": {
+      const value = action.event.target.value;
+      console.log(value);
+      const updatedProducts = productsData.filter(
+        (p) => p.availablePackings.indexOf(value) >= 0
+      );
+      return updatedProducts;
+    }
+    case "search": {
+      const value = action.event.target.value.toLowerCase();
+      console.log(value);
+      const searchedProducts = productsData.filter((p) =>
+        p.title.toLowerCase().includes(value.toLowerCase())
+      );
+      return searchedProducts;
+    }
+
     default:
       return state;
   }

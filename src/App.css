@@ -5,3 +5,47 @@
   justify-content: center;
   align-items: center;
 }
+.styledContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  color: #222222;
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .styledContainer {
+    width: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .styledContainer {
+    width: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .styledContainer {
+    width: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .styledContainer {
+    width: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .styledContainer {
+    width: auto;
+  }
+}

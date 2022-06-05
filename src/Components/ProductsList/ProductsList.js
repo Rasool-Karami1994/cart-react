@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./ProductsList.module.css";
 import Products from "../Products/Products";
 import { useProducts, useProductsActions } from "../Provider/ProductsProvider";
-import Filter from "../Filters/Filter";
 const ProductsList = () => {
   const products = useProducts();
   const dispatch = useProductsActions();
@@ -39,7 +38,7 @@ const ProductsList = () => {
   // );
   return (
     <div className={styles.productsList}>
-      <h2 className={styles.title}>Cart</h2>
+      {/* <h2 className={styles.title}>Cart</h2> */}
       {renderProducts()}
     </div>
   );

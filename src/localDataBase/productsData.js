@@ -5,7 +5,7 @@ export const productsData = [
     quantity: 1,
     description: "pure grocery",
     image: "./photos/Tomato.jpg",
-    availablePackings: ["1Kg", "2Kg", "3Kg", "5Kg"],
+    availablePackings: ["3Kg", "5Kg"],
     price: 1,
   },
   {
@@ -23,7 +23,7 @@ export const productsData = [
     image: "./photos/Broccoli.jpg",
     quantity: 1,
     description: "pure grocery",
-    availablePackings: ["1Kg", "2Kg", "5Kg"],
+    availablePackings: ["1Kg", "5Kg"],
     price: 5,
   },
   {
@@ -32,7 +32,7 @@ export const productsData = [
     image: "./photos/Eggplant.jpg",
     quantity: 1,
     description: "pure grocery",
-    availablePackings: ["1Kg", "2Kg", "5Kg"],
+    availablePackings: ["1Kg", "2Kg"],
     price: 5,
   },
   {
@@ -59,7 +59,7 @@ export const productsData = [
     image: "./photos/Onion.jpg",
     quantity: 1,
     description: "pure grocery",
-    availablePackings: ["1Kg", "2Kg", "3Kg", "5Kg"],
+    availablePackings: ["1Kg", "5Kg"],
     price: 2,
   },
   {

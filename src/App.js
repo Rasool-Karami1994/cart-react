@@ -6,10 +6,12 @@ import Navbar from "./Components/Navbar/Navbar";
 const App = () => {
   return (
     <div className="Container">
-      <ProductsProvider>
-        <Navbar />
-        <ProductsList />
-      </ProductsProvider>
+      <div className="styledContainer">
+        <ProductsProvider>
+          <Navbar />
+          <ProductsList />
+        </ProductsProvider>
+      </div>
     </div>
   );
 };
